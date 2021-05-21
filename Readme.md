@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Алешин](https://up.htmlacademy.ru/htmlcss/31/user/1794697).
-* Наставник: [Марианна :-) Эльдарова](https://htmlacademy.ru/profile/id82294).
+* Наставник: [Марианна Эльдарова](https://htmlacademy.ru/profile/id82294).
 
 ---
 
