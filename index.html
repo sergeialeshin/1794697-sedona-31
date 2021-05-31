@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-  </head>
+    <link rel="icon" href="favicon.ico">
+    </head>
   <body>
   <header>
     <nav>
-      <a>
-        <img src="https://via.placeholder.com/150x100" width="368" height="153" alt="Логотип сайта по путешествию по Седоне">
+      <a class="main-logo">
+        <img src="img/logo.png" alt="Logo Sedona" width="138">
       </a>
       <ul>
         <li><a href=" ">Информация</a></li>
@@ -17,16 +18,19 @@
         <li><a href=" ">Гостиницы</a></li>
       </ul>
     </nav>
+    <div class="main-header-background">
+      <img src="img/IMG_9190.jpg" alt="Main Sedona" width="1200" height="800" class="main-img">
+      <img src="img/Welcome.png" alt="Welcome to the gargeous Sedona. Because the Grand Canyon sucks!" width="458" class="main-img-logo">
+    </div>
   </header>
   <main>
     
-    <h1>Седона</h1>
     <img src="https://via.placeholder.com/150x100" width="368" height="153" alt="Изображения мотеля">
-      <h2>Седона - небольшой городок в Аризоне, заслуживающий большего</h2>
+      <h1>Седона - небольшой городок в Аризоне, заслуживающий большего</h1>
        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
       <ol>
         <li>
-          <h3>Настоящий городок</h3>
+          <h2>Настоящий городок</h2>
            <p>№1</p>
            <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
         </li>
@@ -75,24 +79,17 @@
       <img src="https://via.placeholder.com/150x100" width="368" height="153" alt="Карта расположения">
       <a href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
       <form action="#" method="post">
-       <p>
-        <label>Дата заезда:
+        <label>Дата заезда:<br>
         <input type="text" value="24 апреля 2017">
-        </label>
-       </p>
-       <p>
-        <label for="tour-param-1day">Дата выезда:</label>
+        </label><br>
+        <label for="tour-param-1day">Дата выезда:</label><br>
         <input type="text" value="4 июля 2017" id="tour-param-1day">
-       </p>
-       <p>
         <label>Взрослые:
         <input type="number" value="2" 
         </label>
-       
         <label>Дети:
         <input type="number" value="0"   
         </label> 
-       </p>
       </form>
     </section> 
     
