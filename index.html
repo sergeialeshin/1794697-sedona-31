@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="icon" href="favicon.ico">
     </head>
-  <body>
-  <header>
-    <nav>
-      <a class="main-logo">
-        <img src="img/index/logo.png" alt="Logo Sedona" width="138" height="70">
+  <body class="page-body">
+    <header class="main-header">
+      <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/logo.png" alt="Logo Sedona" width="138" height="70">
       </a>
-      <ul>
+      <ul class="site-navigation">
         <li><a href=" ">Информация</a></li>
         <li><a href=" ">Фото и видео</a></li>
         <li><a href=" ">Карта штата</a></li>
@@ -19,34 +19,31 @@
       </ul>
     </nav>
     <div class="main-header-background">
-      <img src="img/index/backgroundphoto.jpg" alt="Main Sedona" width="1200" height="509">
+      <img src="img/backgroundphoto.jpg" alt="Main Sedona" width="1200" height="509">
     </div>
   </header>
-  <main>
+  <main class="container">
     
-    <img src="img/index/motel.jpg" width="800" height="256" alt="Изображения мотеля">
+    <img src="img/motel.jpg" width="800" height="256" alt="Изображения мотеля">
       <h1>Седона - небольшой городок в Аризоне, заслуживающий большего</h1>
-       <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-      <ol>
-        <li>
-          <h2>Настоящий городок</h2>
-           <p>№1</p>
-           <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
-        </li>
-      <ul>
-      <img src="img/index/canyon.jpg" width="800" height="256" alt="Изображение каньона">
-        <li>
-          <img src="img/index/home.png" width="75" height="72" alt="Жильё">    
+         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+       <section class="features">
+       <h2>Настоящий городок</h2>
+         <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+    <img src="img/canyon.jpg" width="800" height="256" alt="Изображение каньона">   
+         <ul class="features-list">
+        <li class="feature-item">
+    <img src="img/home.png" width="75" height="72" alt="Жильё">    
           <h3>Жилье</h3>
           <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </li>
         <li>
-          <img src="img/index/food.png" width="75" height="70" alt="Еда">
+          <img src="img/food.png" width="75" height="70" alt="Еда">
           <h3>Еда</h3>
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </li>
         <li>
-          <img src="img/index/souvenirs.png" width="64" height="77" alt="Сувениры"> 
+          <img src="img/souvenirs.png" width="64" height="77" alt="Сувениры"> 
           <h3>Сувениры</h3>
           <p>Не только китайского, но и местного производства!</p>
         </li>
@@ -75,11 +72,11 @@
         </li>
       </ol>
     </section>
-    <section>
+    <section class="interested">
       <h2>Заинтересовались?</h2>
       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      <img src="img/index/map.png" width="1199" height="593" alt="Карта расположения">
-      <a href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
+      <img src="img/map.png" width="1199" height="593" alt="Карта расположения">
+      <a class="button" href="blank.html">ПОИСК ГОСТИНИЦЫ В седоне</a>
       <form action="#" method="post">
         <label>Дата заезда:<br>
         <input type="text" value="24 апреля 2017">
@@ -96,24 +93,24 @@
     </section> 
     
   </main>
-  <footer>
-    <section>
+  <footer class="main-footer">
+    <section class="footer-contacts">
       <h2> </h2>
       <p>
         #visitsedona<br>
-        <a href=" ">+7 800 555-86-28</a><br>
+        <a class="footer-phone" href="tel:+78005558628">+7 800 555-86-28</a><br>
+      </p>
+    </section>
+    <section class="footer-social">
+      <p>
+        <a class="social-button" href="#">twitter.com</a>
+        <a class="social-button" href="#">facebook.com</a>
+        <a class="social-button" href="#">youtube.com</a>
       </p>
     </section>
     <section>
       <p>
-        <a href=" ">twitter.com</a>
-        <a href=" ">facebook.com</a>
-        <a href=" ">youtube.com</a>
-      </p>
-    </section>
-    <section>
-      <p>
-        Website by  <a href=" "></a>Логотип HTML Academy
+        Website by  <a href="https://htmlacademy.ru">Логотип HTML Academy</a>
       </p>
     </section>
   </footer>
