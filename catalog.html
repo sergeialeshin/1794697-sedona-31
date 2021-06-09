@@ -4,9 +4,12 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="icon" href="favicon.ico">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body class="page-body">
+  <body class="page-body inner-page">
+
   <header>
     <nav>
       <a>
@@ -73,35 +76,39 @@
     <br>
     <label>
       <input type="radio" name="arrow" value="down" checked>Вниз</label>  
-      <ul>
-        <li>
+      <ul class="catalog">
+        <li class="catalog-item">
         <img src="img/amara.jpg" width="135" height="90" alt="Изображение отеля Amara Resort & Spa">    
         <h3><a href=" ">Amara Resort & Spa</a></h3>
         <p>Гостиница от 4000 ₽</p>
-        <p><a href=" ">Подробнее</a></p>
-        <p><form method="get" action="https://echo.htmlacademy.ru">Забронировать</form></p>
+        <p><a href="#" class="more">Подробнее</a></p>
+        <form method="post" action="https://echo.htmlacademy.ru">
+        <p><button class="order" type="submit">Забронировать</button></p>
+        </form>
         <p>****</p>
         <p>Рейтинг: 8,5</p>
         </li> 
-      </ul>
-      <ul>
-        <li>
-        <img src="img/desert.jpg" width="135" height="90" alt="Изображение мотеля Desert Quail Inn">    
+    
+        <li class="catalog-item">
+        <img src="img/motel.jpg" width="135" height="90" alt="Изображение мотеля Desert Quail Inn">    
         <h3><a href=" ">Desert Quail Inn</a></h3>
         <p>Мотель от 3000 ₽</p>
-        <p><a href=" ">Подробнее</a></p>
-        <p><form method="get" action="https://echo.htmlacademy.ru">Забронировать</form></p>
+        <p><a href="#" class="more">Подробнее</a></p>
+        <form method="post" action="https://echo.htmlacademy.ru">
+        <p><button class="order" type="submit">Забронировать</button></p>
+        </form>
         <p>***</p>
         <p>Рейтинг: 8,9</p>
         </li> 
-      </ul>
-      <ul>
-        <li>
+      
+        <li class="catalog-item">
         <img src="img/villas.jpg" width="135" height="90" alt="Изображение апартментов Villas at Poco Diablo">    
         <h3><a href=" ">Villas at Poco Diablo</a></h3>
         <p>Апартменты от 2000 ₽</p>
-        <p><a href=" ">Подробнее</a></p>
-        <p><form method="get" action="https://echo.htmlacademy.ru">Забронировать</form></p>
+        <p><a href="#" class="more">Подробнее</a></p>
+        <form method="post" action="https://echo.htmlacademy.ru">
+        <p><button class="order" type="submit">Забронировать</button></p>
+        </form>
         <p>**</p>
         <p>Рейтинг: 9,2</p>
         </li> 

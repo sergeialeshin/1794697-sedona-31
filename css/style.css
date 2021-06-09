@@ -8,4 +8,139 @@
     --basic-blue: #81b3d2;
     --basic-white: #ffffff;
     --basic-brown: #766357;
+    --basic-light: #eeeeee;
+}
+
+body {
+    min-width: 1200px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;    
+    line-height: 21px;
+    font-weight: 400;
+    color: var(--basic-dark);
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+}
+ 
+a {
+    text-decoration: none;
+}
+  
+li {
+    list-style-type: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.site-navigation {
+    font-size: 14px;    
+    line-height: 26px;
+    font-weight: 700; 
+}
+
+.features h1 {
+  font-size: 21px;    
+  line-height: 26px;
+  font-weight: bold; 
+}
+
+.features p {
+  font-size: 14px;    
+  line-height: 26px;
+  font-weight: 400; 
+}
+
+.features-list h2,h3  {
+  font-size: 21px;    
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.blue {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.feature-plus {
+  color: black;
+  background-color: #ffffff;
+}
+
+.grey {
+  background-color: #eeeeee; 
+}
+
+.main-footer {
+  width: 1200px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0,9);
+}
+
+.footer-contacts p,a {
+  font-size: 21px;    
+  line-height: 26px;
+  font-weight: bold; 
+  color: #000000;
+}
+
+.social-button {
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.the-end {
+  font-size: 14px;    
+  line-height: 26px;
+  font-weight: 400; 
+}
+
+.button {
+  background-color: #766357;
+  color: #ffffff;
+  font-size: 21px;    
+  line-height: 26px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.interested h2 {
+  font-size: 30px;    
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.catalog-item {
+  border: solid #e5e5e5;
+  width: 1200px;
+  height: 540px;
+}
+
+.catalog-item h3{
+  font-size: 21px;    
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.order {
+  font-size: 14px;    
+  line-height: 21px;
+  font-weight: 700;
+  background-color: #766357;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.more {
+  font-size: 14px;    
+  line-height: 21px;
+  font-weight: 700;
+  background-color: #81b3d2;
+  color: #ffffff;
+  text-transform: uppercase;
 }

@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="icon" href="favicon.ico">
-    </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
   <body class="page-body">
     <header class="main-header">
       <nav class="main-navigation">
@@ -18,22 +21,21 @@
         <li><a href=" ">Гостиницы</a></li>
       </ul>
     </nav>
-    <div class="main-header-background">
-      <img src="img/backgroundphoto.jpg" alt="Main Sedona" width="1200" height="509">
-    </div>
+    <img src="img/backgroundphoto.jpg" alt="Main Sedona" width="1200" height="509">
   </header>
   <main class="container">
+    <section  class="features">
     
-    <img src="img/motel.jpg" width="800" height="256" alt="Изображения мотеля">
       <h1>Седона - небольшой городок в Аризоне, заслуживающий большего</h1>
          <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-       <section class="features">
-       <h2>Настоящий городок</h2>
+      <ol class="features-list">
+        <li  class="feature-item blue"><h2>Настоящий городок</h2>
+         <p>-№1-</p>
          <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
-    <img src="img/canyon.jpg" width="800" height="256" alt="Изображение каньона">   
-         <ul class="features-list">
-        <li class="feature-item">
-    <img src="img/home.png" width="75" height="72" alt="Жильё">    
+         <img src="img/motel.jpg" width="800" height="256" alt="Изображения мотеля">
+       <ul class="feature-plus">
+        <li>
+          <img src="img/home.png" width="75" height="72" alt="Жильё">    
           <h3>Жилье</h3>
           <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </li>
@@ -47,27 +49,28 @@
           <h3>Сувениры</h3>
           <p>Не только китайского, но и местного производства!</p>
         </li>
+        </ul>
       </ul>
-        <li>
+        <li class="feature-item blue">
+          <img src="img/canyon.jpg" width="800" height="256" alt="Изображение каньона">
           <h3>Там есть Мост дьявола</h3>
-           <p>№2</p>
+           <p>-№2-</p>
            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </li>
       </ul>
-      <ol>
-        <li>
+        <li class="feature-item grey">
           <h3>Небольшая площадь</h3>
-          <p>№3</p>
+          <p>-№3-</p>
           <p>Все достопримечательности находятся очень близко</p>
         </li>
-        <li>
+        <li class="feature-item grey">
           <h3>Красивая дорога</h3>
-          <p>№4</p>
+          <p>-№4-</p>
           <p>Ехать в седону из лас-вегаса совсем не скучно!</p>
         </li>
-        <li>
+        <li class="feature-item grey">
           <h3>Мало туристов</h3>
-          <p>№5</p>
+          <p>-№5-</p>
           <p>Большинство едет в гранд каньон и толпится там</p>
         </li>
       </ol>
@@ -75,42 +78,49 @@
     <section class="interested">
       <h2>Заинтересовались?</h2>
       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      <img src="img/map.png" width="1199" height="593" alt="Карта расположения">
       <a class="button" href="blank.html">ПОИСК ГОСТИНИЦЫ В седоне</a>
-      <form action="#" method="post">
-        <label>Дата заезда:<br>
-        <input type="text" value="24 апреля 2017">
-        </label><br>
-        <label for="tour-param-1day">Дата выезда:</label><br>
-        <input type="text" value="4 июля 2017" id="tour-param-1day">
-        <label>Взрослые:
-        <input type="number" value="2" 
-        </label>
-        <label>Дети:
-        <input type="number" value="0"   
-        </label> 
-      </form>
     </section> 
+    <form action="#" method="post">
+      <label>Дата заезда:</label>
+      <input type="text" value="24 апреля 2017">
+      <br>
+     <label for="tour-param-1day">Дата выезда:</label>
+      <input type="text" value="4 июля 2017" id="tour-param-1day">
+      <br>
+      <label>Взрослые:</label>
+      <input type="number" value="2">
+      <label>Дети:</label> 
+      <input type="number" value="0">   
+    </form>
+     
+      
+    
     
   </main>
   <footer class="main-footer">
+    <img src="img/map.png" width="1199" height="594" alt="Карта расположения">
     <section class="footer-contacts">
-      <h2> </h2>
-      <p>
-        #visitsedona<br>
-        <a class="footer-phone" href="tel:+78005558628">+7 800 555-86-28</a><br>
-      </p>
+      
+        <p>#visitsedona</p>
+        <p><a class="footer-phone" href="tel:+78005558628">+7 800 555-86-28</a></p>
+      
     </section>
     <section class="footer-social">
-      <p>
-        <a class="social-button" href="#">twitter.com</a>
-        <a class="social-button" href="#">facebook.com</a>
-        <a class="social-button" href="#">youtube.com</a>
-      </p>
+      <ul>
+        <li>
+          <a class="social-button" href="#"><img src="img/twitter.png" width="17" height="15" alt="Твиттер"></a>
+        </li>
+        <li>
+          <a class="social-button" href="#"><img src="img/fb-icon.png" width="12" height="22" alt="Фэйсбук"></a>
+        </li>
+        <li>
+          <a class="social-button" href="#"><img src="img/youtube.png" width="20" height="16" alt="Ютуб"></a>
+        </li>
+      </ul>
     </section>
-    <section>
+    <section class="the-end">
       <p>
-        Website by  <a href="https://htmlacademy.ru">Логотип HTML Academy</a>
+        Website by <a href="#"><img src="img/logo_htmlacademy.png" width="115" height="33" alt="Логотип HTML Academy"></a>
       </p>
     </section>
   </footer>
@@ -122,8 +132,7 @@
 
 
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+    
   </body>
 </html>
 <s></s>
