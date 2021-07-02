@@ -9,23 +9,25 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
   </head>
-  <body class="page-body inner-page">
-
-  <header>
-    <nav>
-      <a>
-        <img class="module" src="img/logo.png" width="138" height="70" alt="Логотип сайта по путешествию по Седоне">
+  <body class="page-body">
+    <header class="main-header">
+     <div class="main-navigation-bar">
+     <nav class="main-navigation center-wrapper">
+      <a class="main-header-logo">
+      <img src="img/logo.png" alt="Logo Sedona" width="138" height="70">
       </a>
-      <ul>
+      <ul class="site-navigation">
         <li><a href=" ">Информация</a></li>
         <li><a href=" ">Фото и видео</a></li>
         <li><a href=" ">Карта штата</a></li>
         <li><a href=" ">Гостиницы</a></li>
       </ul>
-    </nav>
-  </header>
-  <main>
-    <img src="img/background-blur.jpg" width="1200" height="217" alt="Мутное фото заднего плана">
+     </nav>
+     </div> 
+    </header>
+  <main class="page-catalog center-wrapper">
+    <img сlass="filter" src="img/background-blur.jpg" width="1200" height="217" alt="Мутное фото заднего плана">
+    <div class="filter-checkbox">
     <form method="post" action="https://echo.htmlacademy.ru">     
     <fieldset>
       <legend>Инфраструктура:</legend>  
@@ -61,23 +63,23 @@
       <label><input type="text" value="3000"></label>  
     </fieldset>
       <button type="submit">Показать</button>
+    </div>
     </section>
-    <h2>Найдено: 3</h2>
-    <ul class="sorting">
-    <li>Сортировка:</li>
-      
-        
-            <li class="sorting-1"><a href="#">По цене</a></li>
-            <li class="sorting-2"><a href="#">По типу</a></li>
-            <li class="sorting-2"><a href="#">По рейтингу</a></li>
-      
-    </ul>
-
+    <div class="found">
+     <h2 class="found-1">Найдено: 3</h2>
+     <ul class="sorting">
+      <li>Сортировка:</li>
+      <li class="sorting-1"><a href="#">По цене</a></li>
+      <li class="sorting-2"><a href="#">По типу</a></li>
+      <li class="sorting-2"><a href="#">По рейтингу</a></li>
+     </ul>
+  <div class="arrows">
   <form method="get" action="https://echo.htmlacademy.ru">
     <button class="arrow-button" type="button"><img src="img/icon-up-dir.png" width="11" height="10" alt="Вверх"></button>
     <button class="arrow-button" type="button"><img src="img/icon-down-dir.png" width="11" height="10" alt="Вниз"></button>
   </form>
-    
+  </div>
+  </div>  
       
     <section>
       <ul class="catalog">
@@ -94,7 +96,7 @@
         </li> 
     
         <li class="catalog-item">
-        <img src="img/motel.jpg" width="135" height="90" alt="Изображение мотеля Desert Quail Inn">    
+        <img src="img/desert.jpg" width="135" height="90" alt="Изображение мотеля Desert Quail Inn">    
         <h2><a class="hotel" href=" ">Desert Quail Inn</a></h2>
         <p>Мотель от 3000 ₽</p>
         <p><a class="more" href="#">Подробнее</a></p>
@@ -120,16 +122,14 @@
     </section>
     
   </main>
-  <footer class="main-footer">
-    <img src="img/map.png" width="1199" height="594" alt="Карта расположения">
-    <section class="footer-contacts">
-      
-        <p>#visitsedona</p>
-        <p><a class="footer-phone" href="tel:+78005558628">+7 800 555-86-28</a></p>
-      
-    </section>
+  <footer class="page-footer main-footer">
+    <div class="social-navigation-bar">
+    <nav class="social-navigation center-wrapper">
+    <p class="footer-contacts">#visitsedona
+        <a class="footer-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+    </p>
     <section class="footer-social">
-      <ul>
+      <ul class="social-icons">
         <li class="icon">
           <a class="social-button" href="#"><img src="img/twitter.png" width="17" height="15" alt="Твиттер"></a>
         </li>
@@ -141,9 +141,9 @@
         </li>
       </ul>
     </section>
-    <section class="the-end">
-      <p>
-        Website by <a class="logo-academy" href="#"><img src="img/logo_htmlacademy.png" width="115" height="33" alt="Логотип HTML Academy"></a>
+      <p class="footer-copyright">
+        Website by <a href="#"><img src="img/logo_htmlacademy.png" width="115" height="33" alt="Логотип HTML Academy"></a>
       </p>
-    </section>
+    </nav>
+    </div>
   </footer>
